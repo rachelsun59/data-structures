@@ -1,15 +1,32 @@
-         ___        ______     ____ _                 _  ___  
-        / \ \      / / ___|   / ___| | ___  _   _  __| |/ _ \ 
-       / _ \ \ /\ / /\___ \  | |   | |/ _ \| | | |/ _` | (_) |
-      / ___ \ V  V /  ___) | | |___| | (_) | |_| | (_| |\__, |
-     /_/   \_\_/\_/  |____/   \____|_|\___/ \__,_|\__,_|  /_/ 
- ----------------------------------------------------------------- 
+# Assignment 1
 
+> See [The Assignment details](https://github.com/visualizedata/data-structures/blob/master/assignments/weekly_assignment_01.md)
 
-Hi there! Welcome to AWS Cloud9!
+## Installation  Usage
 
-To get started, create some files, play with the terminal,
-or visit https://docs.aws.amazon.com/console/cloud9/ for our documentation.
+**Requirements**
+* Node 7.6 or higher 
 
-Happy coding!
+### 1. Clone this repo
 
+```bash
+$ git clone https://github.com/rachelsun59/data-structures.git
+```
+
+### 2. Go to the `assignment-1` folder
+
+```bash
+$ cd assignment-1
+```
+
+### 3. Install the NPM dependencies
+
+```bash
+$ npm install
+```
+
+### 4. Run the `week1.js` file
+
+```bash
+$ node week1.js
+```

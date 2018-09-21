@@ -4,74 +4,31 @@
 var request = require('request');
 var fs = require('fs');
 
-request('https://parsons.nyc/aa/m01.html', function(error, response, body){
-    if (!error && response.statusCode == 200) {
-        fs.writeFileSync('/home/ec2-user/environment/data/mo1.txt', body);
+// create a loop
+for (var i=1; i < 11; i++) {
+    if (i < 10) {
+        i = '0' + i
     }
-    else {console.log("Request failed!")}
-});
+    
+// Create a loop function (idx) 
 
-request('https://parsons.nyc/aa/m02.html', function(error, response, body){
-    if (!error && response.statusCode == 200) {
-        fs.writeFileSync('/home/ec2-user/environment/data/mo2.txt', body);
+    function numberToCount (idx) {
+    var url = 'https://parsons.nyc/aa/m' + idx + '.html';
+    var fn = '/home/ec2-user/environment/assignment-1/data/m' + idx + '.txt'
+    
+    request(url, function(error, response, body){
+      if (!error && response.statusCode == 200) {
+            fs.writeFileSync(fn, body);
+            console.log("success.")
+        }
+        else {console.log("Request failed!")}
+    });
     }
-    else {console.log("Request failed!")}
-});
+    numberToCount(i);
+}
 
 
-request('https://parsons.nyc/aa/m03.html', function(error, response, body){
-    if (!error && response.statusCode == 200) {
-        fs.writeFileSync('/home/ec2-user/environment/data/mo3.txt', body);
-    }
-    else {console.log("Request failed!")}
-});
 
-request('https://parsons.nyc/aa/m04.html', function(error, response, body){
-    if (!error && response.statusCode == 200) {
-        fs.writeFileSync('/home/ec2-user/environment/data/mo4.txt', body);
-    }
-    else {console.log("Request failed!")}
-});
 
-request('https://parsons.nyc/aa/m05.html', function(error, response, body){
-    if (!error && response.statusCode == 200) {
-        fs.writeFileSync('/home/ec2-user/environment/data/mo5.txt', body);
-    }
-    else {console.log("Request failed!")}
-});
 
-request('https://parsons.nyc/aa/m06.html', function(error, response, body){
-    if (!error && response.statusCode == 200) {
-        fs.writeFileSync('/home/ec2-user/environment/data/mo6.txt', body);
-    }
-    else {console.log("Request failed!")}
-});
-
-request('https://parsons.nyc/aa/m07.html', function(error, response, body){
-    if (!error && response.statusCode == 200) {
-        fs.writeFileSync('/home/ec2-user/environment/data/mo7.txt', body);
-    }
-    else {console.log("Request failed!")}
-});
-
-request('https://parsons.nyc/aa/m08.html', function(error, response, body){
-    if (!error && response.statusCode == 200) {
-        fs.writeFileSync('/home/ec2-user/environment/data/mo8.txt', body);
-    }
-    else {console.log("Request failed!")}
-});
-
-request('https://parsons.nyc/aa/m09.html', function(error, response, body){
-    if (!error && response.statusCode == 200) {
-        fs.writeFileSync('/home/ec2-user/environment/data/mo9.txt', body);
-    }
-    else {console.log("Request failed!")}
-});
-
-request('https://parsons.nyc/aa/m10.html', function(error, response, body){
-    if (!error && response.statusCode == 200) {
-        fs.writeFileSync('/home/ec2-user/environment/data/mo10.txt', body);
-    }
-    else {console.log("Request failed!")}
-});
 
