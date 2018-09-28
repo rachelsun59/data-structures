@@ -17,24 +17,37 @@
 
 var fs = require('fs');
 var cheerio = require('cheerio');
-var location ="";
 
+/* my ID number is N005757 */
 var content = fs.readFileSync('data/input07.txt');
 
+/* using cheerio */
 var $ = cheerio.load(content);
+var addressData = [];
 
+/* finding <td> tag and specify style class */
 $('td').each(function(i, elem) {
    if($(elem).attr("style") =="border-bottom:1px solid #e3e3e3; width:260px") {
-    location += ($(elem).html().split('<br>')[2].trim());
-    console.log($(elem).text());
+    
+    var addressName=$(elem).html().split('<br>')[2].trim();
+    var newAddress=addressName.substr(0,addressName.indexOf(","))+", New York, NY";
+    addressData.push(newAddress);
+    console.log(newAddress);
    }
 });
 
+/* output data in txt and JSON*/
+
 var thesisTitles = 'Data Visualization Project'; 
-$('td').each(function(i, elem) {
+$('td').remove("div").each(function(i, elem) {
     if($(elem).attr("style") =="border-bottom:1px solid #e3e3e3; width:260px") {
-    location += ($(elem).html().split('<br>')[2].trim());
-    thesisTitles += ($(elem).text()) + '\n';
+    var addressName=$(elem).html().split('<br>')[2].trim();
+    var newAddress=addressName.substr(0,addressName.indexOf(","))+", New York, NY";
+    addressData.push(newAddress);;
+    thesisTitles += (newAddress) + '\n';
 }});
 
 fs.writeFileSync('data/output07.txt', thesisTitles);
+
+/* export into JSON file */
+fs.writeFileSync('data/output07.json', JSON.stringify(addressData));

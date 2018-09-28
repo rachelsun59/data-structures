@@ -8,6 +8,9 @@
 * Node 7.6 or higher 
 * Cheerio
 
+### solution
+*  select all the <td> tags where the style attributes match the style for the addresses
+
 ### 1. Clone this repo
 
 ```bash
