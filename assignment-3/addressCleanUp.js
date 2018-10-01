@@ -19,7 +19,7 @@ var fs = require('fs');
 var cheerio = require('cheerio');
 
 /* my ID number is N005757 */
-var content = fs.readFileSync('../assignment-1/data/m01.txt');
+var content = fs.readFileSync('../assignment-1/data/m07.txt');
 
 /* using cheerio */
 var $ = cheerio.load(content);
@@ -33,9 +33,9 @@ $('td').each(function(i, elem) {
     var addressName=$(elem).html().split('<br>')[2].trim();
     
     //Use substr()to ignore everything after "," in existing address variable.
-    //All Addresses are in "New York, NY" so I added it at the end of every address.
-    
+
     var newAddress=addressName.substr(0,addressName.indexOf(","));
+    
     addressData.push(newAddress);
     console.log(newAddress);
    }
@@ -43,7 +43,7 @@ $('td').each(function(i, elem) {
 
 /* output data in txt and JSON*/
 
-var thesisTitles = 'Data Visualization Project'; 
+var thesisTitles = ''; 
 $('td').remove("div").each(function(i, elem) {
     if($(elem).attr("style") =="border-bottom:1px solid #e3e3e3; width:260px") {
     var addressName=$(elem).html().split('<br>')[2].trim();

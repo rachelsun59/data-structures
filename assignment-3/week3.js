@@ -1,7 +1,7 @@
 /*
 in Bash Terminal:
-export NEW_VAR="Content of NEW_VAR variable" storing my API Key.
-printenv | grep NEW_VAR
+export TAMU_KEY="api KEY" storing my API Key.
+printenv | grep TAMU_KEY
 */
 
 var request = require('request'); // npm install request
@@ -10,11 +10,15 @@ var fs = require('fs');
 
 var apiKey = process.env.TAMU_KEY; 
 
+console.log(process.env.TAMU_KEY);
+
 var meetingsData = [];
+
 //copy my array below
 var addresses = JSON.parse(fs.readFileSync('data/output07.json'));//to read my new cleaned up address in JSON file.
 
 // eachSeries in the async module iterates over an array and operates on each item in the array in series
+
 async.eachSeries(addresses, function(value, callback) {
     var apiRequest = 'https://geoservices.tamu.edu/Services/Geocode/WebService/GeocoderWebServiceHttpNonParsed_V04_01.aspx?';
     apiRequest += 'streetAddress=' + value.split(' ').join('%20');
@@ -25,20 +29,22 @@ async.eachSeries(addresses, function(value, callback) {
         if (err) {throw err;}
         else {
             var tamuGeo = JSON.parse(body);
-            var thisGeo={};
+            var thisGeo = {};
             thisGeo.streetAddress = tamuGeo['InputAddress']['StreetAddress'];
-            thisGeo.City = tamuGeo['City'];
-            thisGeo.lat = tamuGeo['OutputGeocodes'][0]['OutputGeocode']['Latitude'];
-            thisGeo.long = tamuGeo['OutputGeocodes'][0]['OutputGeocode']['Longitude'];
+            thisGeo.City = tamuGeo['InputAddress']['City'];
+            thisGeo.latitude = tamuGeo['OutputGeocodes'][0]['OutputGeocode']['Latitude'];
+            thisGeo.longitude = tamuGeo['OutputGeocodes'][0]['OutputGeocode']['Longitude'];
             console.log(thisGeo);
             meetingsData.push(thisGeo);
         }
     });
     
-    setTimeout(callback, 2000);
+    setTimeout(callback, 1000);
 }, function() {
     fs.writeFileSync('firstData.json', JSON.stringify(meetingsData));
     console.log('*** *** *** *** ***');
     console.log('Number of meetings in this zone: ');
     console.log(meetingsData.length);
+    console.log(tamuGeo);
+
 });
