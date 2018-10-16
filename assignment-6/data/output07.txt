@@ -1,0 +1,159 @@
+Data Visualization Project<h4 style="margin:0;padding:0;">Jan Hus Church</h4><br>
+				  	    <b>A BAFFLED LOT - </b><br>
+						351 East 74th Street
+<h4 style="margin:0;padding:0;">Manhattan Church of Christ</h4><br>
+				  	    <b>A.A. TRADITIONS AND HISTORY - </b><br>
+						48 East 80th Street
+<h4 style="margin:0;padding:0;">St. Jean Baptiste Church</h4><br>
+				  	    <b>ACTIVE - Active</b><br>
+						184 East 76th Street
+<h4 style="margin:0;padding:0;">Jan Hus Church</h4><br>
+				  	    <b>AFTERNOON AWAKENING - </b><br>
+						351 East 74th Street
+<h4 style="margin:0;padding:0;">Church of the Epiphany</h4><br>
+				  	    <b>ATLANTIC ELEVENTH STEP MEDITATION - </b><br>
+						1393 York Avenue
+<h4 style="margin:0;padding:0;">Christ United Methodist Church</h4><br>
+				  	    <b>ATLANTIC GROUP (:I) - Atlantic    (:I)</b><br>
+						520 Park Avenue
+<h4 style="margin:0;padding:0;">Archdiocian Cathedral of the Holy Trinity</h4><br>
+				  	    <b>ATLANTIC GROUP (:II) - </b><br>
+						337 E. 74th St.
+<h4 style="margin:0;padding:0;">All Souls Church</h4><br>
+				  	    <b>ATLANTIC GROUP (:III) - </b><br>
+						1157 Lexington Avenue
+<h4 style="margin:0;padding:0;">Gracie Square Hospital</h4><br>
+				  	    <b>BREAKING THROUGH - Breaking Through</b><br>
+						420 East 76th Street
+<h4 style="margin:0;padding:0;">Our Lady of Good Counsel Church</h4><br>
+				  	    <b>CAME TO BELIEVE - Came To Believe</b><br>
+						230 East 90th Street
+<h4 style="margin:0;padding:0;">St. Thomas More Church</h4><br>
+				  	    <b>CARNEGIE HILL - Carnegie Hill</b><br>
+						65 East 89th Street
+<h4 style="margin:0;padding:0;">St. James Episcopal Church</h4><br>
+				  	    <b>CENTRAL - Central I</b><br>
+						865 Madison Avenue
+<h4 style="margin:0;padding:0;">Immanuel Lutheran Church</h4><br>
+				  	    <b>CHAPTER FIVE - Chapter Five     (:I)</b><br>
+						1296 Lexington Avenue
+<h4 style="margin:0;padding:0;">Jan Hus Church</h4><br>
+				  	    <b>ELEVENTH STEP AT JAN HUS - Eleventh Step At Jan Hus</b><br>
+						351 East 74th Street
+<h4 style="margin:0;padding:0;">All Souls Uniterian Church</h4><br>
+				  	    <b>FEARLESS - </b><br>
+						1157 Lexington Avenue
+<h4 style="margin:0;padding:0;">Jan Hus Church</h4><br>
+				  	    <b>FRIDAY CENTRAL - </b><br>
+						351 East 74th Street
+<h4 style="margin:0;padding:0;">Jan Hus Church</h4><br>
+				  	    <b>FRIDAY NIGHT GAY MEN &amp; WOMEN - Friday Night Gay Men &amp; Women</b><br>
+						351 East 74th Street
+<h4 style="margin:0;padding:0;">St. Thomas More Church Rectory</h4><br>
+				  	    <b>FRIDAY NIGHT MEN&apos;S STEP - Friday Night Men&apos;s Step</b><br>
+						65 East 89th Street
+<h4 style="margin:0;padding:0;">Church of Saint Thomas Moore</h4><br>
+				  	    <b>HUMANISTS TOO - </b><br>
+						65 East 89th Street - Rectory basement
+<h4 style="margin:0;padding:0;">Jan Hus Church</h4><br>
+				  	    <b>I&apos;M ALL IN - </b><br>
+						351 East 74th Street
+<h4 style="margin:0;padding:0;">St. Francis de Sales Church</h4><br>
+				  	    <b>INTO ACTION MANHATTAN - Into Action Manhattan</b><br>
+						135 East 96th Street
+<h4 style="margin:0;padding:0;">Jan Hus Presbyterian Church</h4><br>
+				  	    <b>KITCHEN TABLE MEETING - </b><br>
+						351 East 74th Street
+<h4 style="margin:0;padding:0;">Church of the Heavenly Rest</h4><br>
+				  	    <b>LENOX HILL - Lenox Hill</b><br>
+						2 East 90th Street
+<h4 style="margin:0;padding:0;">All Souls Uniterian Church</h4><br>
+				  	    <b>LEX 80 STEP - </b><br>
+						1157 Lexington Avenue
+<h4 style="margin:0;padding:0;">Gracie Square Hospital</h4><br>
+				  	    <b>LIVE AND LET LIVE - Live And Let Live</b><br>
+						420 East 76th Street
+<h4 style="margin:0;padding:0;">Jan Hus Presbyterian Church</h4><br>
+				  	    <b>MADISON 73 - Madison 73</b><br>
+						351 East 74th Street
+<h4 style="margin:0;padding:0;">Jan Hus Church</h4><br>
+				  	    <b>MEDITATION (EXPECT MIRACLES) - Meditation (Expect Miracles)</b><br>
+						351 East 74th Street
+<h4 style="margin:0;padding:0;">Philomathist Center</h4><br>
+				  	    <b>MEN&apos;S NYC BIG BOOK STEP STUDY - </b><br>
+						1285 Madison Avenue
+<h4 style="margin:0;padding:0;">St. Ignatius Loyola School</h4><br>
+				  	    <b>METROPOLITAN - Metropolitan</b><br>
+						48 East 84th Street
+<h4 style="margin:0;padding:0;">St. Stephen of Hungary Church</h4><br>
+				  	    <b>MONDAY EAST TOPIC - Monday East Topic</b><br>
+						408 East 82nd Street
+<h4 style="margin:0;padding:0;">Jan Hus Church</h4><br>
+				  	    <b>MONDAY WOMEN - </b><br>
+						351 East 74th Street
+<h4 style="margin:0;padding:0;">Jan Hus Church</h4><br>
+				  	    <b>MORNING REFLECTIONS - </b><br>
+						351 East 74th Street
+<h4 style="margin:0;padding:0;">Congregational Kehilath Jeshurun</h4><br>
+				  	    <b>NEW CHOICES - New Choices</b><br>
+						125 East 85th Street
+<h4 style="margin:0;padding:0;">Jan Hus Church</h4><br>
+				  	    <b>OPEN BOOK - </b><br>
+						351 East 74th Street
+<h4 style="margin:0;padding:0;">Jan Hus Church</h4><br>
+				  	    <b>OUR PRIMARY PURPOSE - </b><br>
+						351 East 74th Street
+<h4 style="margin:0;padding:0;">St. James Church</h4><br>
+				  	    <b>PARK BENCH   (:II) - </b><br>
+						865 Madison Avenue
+<h4 style="margin:0;padding:0;">Brick Church Parish House</h4><br>
+				  	    <b>PARK MADISON - Park Madison</b><br>
+						62 East 92nd Street
+<h4 style="margin:0;padding:0;">Jan Hus Church</h4><br>
+				  	    <b>PERSEVERANCE - Perseverance</b><br>
+						351 East 74th Street
+<h4 style="margin:0;padding:0;">St. Joseph&apos;s School</h4><br>
+				  	    <b>RECOVERY ROOM - Recovery Room</b><br>
+						420 East 87th Street
+<h4 style="margin:0;padding:0;">Central Presbyterian Church</h4><br>
+				  	    <b>RENEWAL EAST - </b><br>
+						593 Park Avenue
+<h4 style="margin:0;padding:0;">St. Thomas More Church</h4><br>
+				  	    <b>RENEWAL NORTH - </b><br>
+						65 East 89th Street
+<h4 style="margin:0;padding:0;">St. James Episcopal Church</h4><br>
+				  	    <b>RHINELANDER - Rhinelander</b><br>
+						865 Madison Avenue
+<h4 style="margin:0;padding:0;"></h4><br>
+				  	    <b>ROOSEVELT ISLAND SERENITY - </b><br>
+						Church of the Good Shepard
+<h4 style="margin:0;padding:0;">St. Monica&apos;s Church</h4><br>
+				  	    <b>SEVENTY-NINTH STREET WORKSHOP - Seventy-Ninth Street Workshop    (:I)</b><br>
+						413 East 79th Street
+<h4 style="margin:0;padding:0;">Jan Hus Church</h4><br>
+				  	    <b>SOBER WOMEN - Sober Women</b><br>
+						351 East 74th Street
+<h4 style="margin:0;padding:0;">New York Blood Center</h4><br>
+				  	    <b>STEP BY STEP - Step By Step</b><br>
+						310 East 67th Street
+<h4 style="margin:0;padding:0;">Lenox Hill Neighborhood House</h4><br>
+				  	    <b>SUNDAY ON 70TH - Sunday On 70th</b><br>
+						331 E 70th St
+<h4 style="margin:0;padding:0;">Church of St. Catherine of Siena</h4><br>
+				  	    <b>SUTTON - Sutton</b><br>
+						411 East 68th Street
+<h4 style="margin:0;padding:0;">Church of the Heavenly Rest</h4><br>
+				  	    <b>THREE TWELVES - Three Twelves</b><br>
+						2 East 90th Street
+<h4 style="margin:0;padding:0;">Holy Trinity Church</h4><br>
+				  	    <b>TRINITY - Trinity</b><br>
+						341 East 87th Street
+<h4 style="margin:0;padding:0;">Jan Hus Church</h4><br>
+				  	    <b>WE HUMANISTS - We Humanists</b><br>
+						351 East 74th Street
+<h4 style="margin:0;padding:0;">Jan Hus Church</h4><br>
+				  	    <b>WEDNESDAY EAST ON THURSDAY - Wednesday East</b><br>
+						351 East 74th Street
+<h4 style="margin:0;padding:0;">Jan Hus Church</h4><br>
+				  	    <b>YORKVILLE-BUTTERFIELD - Yorkville</b><br>
+						351 East 74th Street
