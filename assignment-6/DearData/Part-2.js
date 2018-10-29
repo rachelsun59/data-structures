@@ -1,3 +1,4 @@
+// npm install aws-sdk
 var AWS = require('aws-sdk');
 AWS.config = new AWS.Config();
 AWS.config.accessKeyId = process.env.AWS_ID;
@@ -6,11 +7,25 @@ AWS.config.region = "us-east-1";
 
 var dynamodb = new AWS.DynamoDB();
 
-var params = {};
-params.Item = diaryEntries[0]; 
-params.TableName = "deardiary";
+var params = {
+    TableName : "deardiary",
+    KeyConditionExpression: "#tp = :topicName and dt between :minDate and :maxDate", // the query expression
+    ExpressionAttributeNames: { // name substitution, used for reserved words in DynamoDB
+        "#tp" : "topic"
+    },
+    ExpressionAttributeValues: { // the query values
+        ":topicName": {S: "date"},
+        ":minDate": {N: new Date("October 1, 2018").valueOf().toString()},
+        ":maxDate": {N: new Date("October 16, 2018").valueOf().toString()}
+    }
+};
 
-dynamodb.putItem(params, function (err, data) {
-  if (err) console.log(err, err.stack); // an error occurred
-  else     console.log(data);           // successful response
-});
+dynamodb.query(params, function(err, data) {
+    if (err) {
+        console.error("Unable to query. Error:", JSON.stringify(err, null, 2));
+    } else {
+        console.log("Query succeeded.");
+        data.Items.forEach(function(item) {
+            console.log("***** ***** ***** ***** ***** \n", item);
+        });
+    }
