@@ -21,8 +21,9 @@ class DiaryEntry {
   }
 }
 
+/* will add more data base on my diary */
 diaryEntries.push(new DiaryEntry(0, 'October 10, 2018', true, ["baby food", "baby formula"]));
-diaryEntries.push(new DiaryEntry(1, '4', true, ["coffee"]);
+diaryEntries.push(new DiaryEntry(1, '4hr', true, ["coffee"]);
 diaryEntries.push(new DiaryEntry(2, '80%', true, ['happy']));
 diaryEntries.push(new DiaryEntry(3, '80%', "I completed 10 tasks", true, ["happy"]));
 
