@@ -2,7 +2,6 @@
 
 ## View Visualization here: https://dear-diary.glitch.me/ ##
 
-# Final Assignment 2: Dear Diary #
 > See [The Assignment details](https://github.com/visualizedata/data-structures/blob/master/assignments/weekly_assignment_02.md)
 
 ## Requirement ##
@@ -18,10 +17,10 @@ I store all data for "Dear Diary"--a source of semi-structured, qualitative data
 
 This part was the most difficult part of the project. Because I had a difficult time to connect with DynamoDB. I used other method and used my own database to collect the database first. But I end up figured out the problem. It was the connection issue between the dynamodb and my server. 
 
-### Step four: Query data from database using sql ###
+### Step three: Query data from database using sql ###
 I use the code [here](https://github.com/rachelsun59/data-structures/blob/master/Final-Assignment-2/insertdiarydata.js) to query data. 
 
-### Creating Visualization with Chart.js ###
+### Step four: Creating Visualization with Chart.js ###
 Creating the visualization was fairly easier. Because I hardcoded the data into the database. I used [Chart.js](https://www.chartjs.org/samples/latest/) Please see my code [here](https://github.com/rachelsun59/data-structures/blob/master/Final-Assignment-2/deardiary.html)
 
 ### View Visualization here: https://dear-diary.glitch.me/ ###
