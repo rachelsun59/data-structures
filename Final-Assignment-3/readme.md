@@ -51,13 +51,13 @@ void loop() {
 
 This part was the most difficult part of the project. Because I had a difficult time to connect with DynamoDB. I used other method and used my own database to collect the database first. But I end up figured out the problem. It was the connection issue between the dynamodb and my server. 
 
-### Step Three: Creating table and Insert data ###
+### Step three: Creating table and Insert data ###
 [Here](https://github.com/rachelsun59/data-structures/blob/master/Final-Assignment-3/querydata/createsensortable.js) is the table I created. And [here](https://github.com/rachelsun59/data-structures/blob/master/Final-Assignment-3/querydata/insertsensordata.js) is the data entry.
 
 ### Step four: Query data from database using sql ###
 [Here](https://github.com/rachelsun59/data-structures/blob/master/Final-Assignment-3/data/sensordata.json) the data I collected. 
 
-### Creating Visualization with Chart.js ###
+### Step five: Creating Visualization with Chart.js ###
 Creating the visualization was fairly easier. Because I hardcoded the data into the database. I used [Chart.js](https://www.chartjs.org/samples/latest/) Please see my code [here](hhttps://github.com/rachelsun59/data-structures/blob/master/Final-Assignment-3/visualization/sensor.html)
 
 ### View Visualization here: https://sensordata.glitch.me/ ###
