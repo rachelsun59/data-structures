@@ -37,9 +37,9 @@ The method for binding the data to the visual representation
 ### Step two: Create table in Database using sql ###
 My choice of data structure is to seperate address, location, lat, long, and wheelchair access into a seperate table. I have a seperate addressID in the aameetinginfo database. Please see screenshot below. 
 
-Please see for address table [addressid table](https://cdn.glitch.com/3697a4db-cb38-43eb-88d2-bd50f9c8efd4%2FScreen%20Shot%202018-12-16%20at%2020.56.25.png?1545011844836)
+Please see for address table ![addressid table](https://cdn.glitch.com/3697a4db-cb38-43eb-88d2-bd50f9c8efd4%2FScreen%20Shot%202018-12-16%20at%2020.56.25.png?1545011844836)
 
-Please see for aadatainfo table  [aainfodata table](https://cdn.glitch.com/3697a4db-cb38-43eb-88d2-bd50f9c8efd4%2FScreen%20Shot%202018-12-16%20at%2020.56.35.png?1545011841749)
+Please see for aadatainfo table  ![aainfodata table](https://cdn.glitch.com/3697a4db-cb38-43eb-88d2-bd50f9c8efd4%2FScreen%20Shot%202018-12-16%20at%2020.56.35.png?1545011841749)
 
 
 ### Step three: Insert data into database using sql into seperate table ###
