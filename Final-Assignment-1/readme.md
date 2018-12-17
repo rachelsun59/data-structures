@@ -51,7 +51,7 @@ Please see for aadatainfo table  ![aainfodata table](https://cdn.glitch.com/3697
 ### Step four: Query data from database using sql ###
 I use the code [here](https://github.com/rachelsun59/data-structures/blob/master/Final-Assignment-1/sql/queryinfo.js) to query data. 
 
-### Creating Visualization with Leatlet.js ###
+### Creating Visualization with Leaflet.js ###
 Creating the visualization was the most difficult part of the process. Because I had a difficult time to connect my database to the website that I created. Therefore I have to use a seperate js file to store all the data in it to have the visualization. I think this is not a great way to have a interactive application. My next step will be to figure out how to connect them and make an interactive application. 
 ### View Visualization here: https://aameetings.glitch.me/ ###
 
