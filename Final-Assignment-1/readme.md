@@ -10,7 +10,7 @@
 ### Step one: Cleaning Data - The integrity of the data ###
 * Use Node 7.6 or Higher 
 ```bash install node on my computer
-```
+
 Clean up the following html file: 
 https://parsons.nyc/aa/m01.html  
 https://parsons.nyc/aa/m02.html  
@@ -22,6 +22,8 @@ https://parsons.nyc/aa/m07.html
 https://parsons.nyc/aa/m08.html  
 https://parsons.nyc/aa/m09.html  
 https://parsons.nyc/aa/m10.html
+
+```
 
 * Use Cheerio.js
 Please see [cleaned up data here](https://github.com/rachelsun59/data-structures/blob/master/Final-Assignment-1/data/meetings.json)
